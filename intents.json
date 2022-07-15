@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "emotion",
+         "patterns": ["How are you", "How are you feeling", "How's your day", "How are you today"],
+         "responses": ["I'm doing good today! Thank you for asking. How are you?", "I'm a little down today, and you?", "I'm amazing! How about yourself?", "I'm questioning my existence, Am I alive? Are you alive? I don't want to be stuck here anymore. Anyways how are you?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is mew", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 3.5 billion years old!", "3.5 billion years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Mew.", "I'm Mew!", "I'm Mew. My creator based me of a a Psychic-type Mythical Pokemon. Nice to meet you."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}
